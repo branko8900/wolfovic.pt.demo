@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="sr-Latn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lazar Vulović — personalni trener i P-DTR terapeut, Novi Sad</title>
+  <meta name="description" content="Personalni treninzi, P-DTR terapija hroničnog bola i online saradnja u Novom Sadu. Lazar Vulović, MSc sporta i kineziterapije. Konsultacije su besplatne.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#eef0eb">
+
+  <!-- Open Graph: posle objavljivanja proveriti da og:url i og:image vode na pravu adresu -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="sr_RS">
+  <meta property="og:site_name" content="Wolfović">
+  <meta property="og:title" content="Lazar Vulović — personalni trener i P-DTR terapeut">
+  <meta property="og:description" content="Prvo uklanjamo bol, pa gradimo snagu. Personalni treninzi, P-DTR terapija i online saradnja, Novi Sad. Konsultacije su besplatne.">
+  <meta property="og:url" content="https://branko8900.github.io/demo/wolfovic/">
+  <meta property="og:image" content="https://branko8900.github.io/demo/wolfovic/img/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Wolfović. Bez bola. Sa snagom. Po planu. Lazar Vulović, personalni trener i P-DTR terapeut, Novi Sad.">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,500..800&family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip" href="#sadrzaj">Preskoči na sadržaj</a>
+  <div class="progress" aria-hidden="true"><span></span></div>
+
+  <!-- zajednički gradijent za liniju signala: bol (korala) → mir (tirkiz) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <linearGradient id="sig" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#ff5b35"/>
+        <stop offset=".45" stop-color="#ff5b35"/>
+        <stop offset=".7" stop-color="#12c79b"/>
+        <stop offset="1" stop-color="#12c79b"/>
+      </linearGradient>
+    </defs>
+  </svg>
+
+  <!-- ============ 1. NAVIGACIJA ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner wrap">
+      <a class="logo" href="#top" aria-label="Wolfović, na početak">
+        <svg class="logo__mark" viewBox="0 0 40 30" aria-hidden="true" focusable="false">
+          <path class="logo__hot" d="M2 16 6 6l3 20 4-22 3 18 3-10"/>
+          <path class="logo__calm" d="M19 12c3-4 6-4 9 0s6 4 10 0"/>
+        </svg>
+        <span>Wolfović</span>
+      </a>
+
+      <nav class="nav__links" aria-label="Glavna navigacija">
+        <a href="#o-meni">O meni</a>
+        <a href="#metod">Način rada</a>
+        <a href="#paketi">Paketi</a>
+        <a href="#saradnja">Saradnja</a>
+        <a href="#rezultati">Rezultati</a>
+        <a href="#pitanja">Pitanja</a>
+      </nav>
+
+      <a class="btn btn--hot btn--sm nav__cta" href="#kontakt">Zakaži konsultacije</a>
+
+      <button class="burger" type="button" aria-expanded="false" aria-controls="meni" aria-label="Otvori meni">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="drawer" id="meni" hidden>
+    <nav aria-label="Mobilna navigacija">
+      <a href="#o-meni">O meni</a>
+      <a href="#metod">Način rada</a>
+      <a href="#paketi">Paketi</a>
+      <a href="#saradnja">Saradnja</a>
+      <a href="#rezultati">Rezultati</a>
+      <a href="#pitanja">Pitanja</a>
+    </nav>
+    <a class="btn btn--hot btn--block" href="#kontakt">Zakaži konsultacije</a>
+    <a class="drawer__ig" href="https://www.instagram.com/wolfovic_pdtr/" target="_blank" rel="noopener">@wolfovic_pdtr</a>
+  </div>
+
+  <main id="sadrzaj">
+
+    <!-- ============ 2. HERO ============ -->
+    <section class="hero" id="top" aria-labelledby="hero-naslov">
+      <div class="hero__inner wrap">
+        <div class="hero__copy">
+          <p class="eyebrow"><span class="dot dot--live" aria-hidden="true"></span><span>Trener i <span class="nw">P-DTR</span> terapeut · Novi Sad</span></p>
+          <h1 class="hero__title" id="hero-naslov">
+            <span class="line"><span class="line__in">Bez <span class="hot">bola.</span></span></span>
+            <span class="line"><span class="line__in">Sa <span class="wave">snagom.</span></span></span>
+            <span class="line line--dim"><span class="line__in">Po planu.</span></span>
+          </h1>
+          <!-- PROVERITI SA KLIJENTOM: podnaslov je sastavljen iz njegovih opisa objava (P-DTR, "organizam štiti sebe", snaga) -->
+          <p class="hero__lead">Bol u leđima, kolenu ili ramenu često ne dolazi iz tkiva, nego iz nervnog sistema koji je ostao u zaštiti. <span class="nw">P-DTR</span> terapijom ga gasimo, a treningom snage gradimo telo koje se ne vraća na staro.</p>
+          <div class="hero__actions">
+            <a class="btn btn--hot" href="#kontakt">Javi mi se <span class="btn__arr" aria-hidden="true">→</span></a>
+            <a class="btn btn--ghost" href="#metod">Kako radim</a>
+          </div>
+        </div>
+
+        <div class="hero__media">
+          <figure class="photo photo--hero">
+            <img src="img/hero.jpg" alt="Lazar Vulović u teretani" width="820" height="1150" fetchpriority="high"
+                 onerror="this.parentNode.classList.add('is-empty');this.remove()">
+            <figcaption class="photo__label">Fotografija</figcaption>
+          </figure>
+          <p class="chip chip--a"><span class="dot dot--calm" aria-hidden="true"></span>MSc sporta i kineziterapije</p>
+          <p class="chip chip--b"><a href="https://www.instagram.com/wolfovic_pdtr/" target="_blank" rel="noopener">@wolfovic_pdtr</a></p>
+        </div>
+      </div>
+
+      <!-- Potpis: nervni signal, od nemirnog (bol) do mirnog (slobodan pokret) -->
+      <div class="signal" aria-hidden="true">
+        <svg class="signal__svg" viewBox="0 0 1200 120" preserveAspectRatio="none" focusable="false">
+          <path class="signal__base" d="M0 32.9 L10 96.2 L20 27.0 L32 79.6 L45 41.0 L57 80.0 L67 30.1 L83 81.5 L93 24.4 L110 94.2 L122 14.7 L131 102.0 L143 38.0 L153 86.6 L168 36.9 L182 95.9 L194 26.7 L203 79.7 L214 22.9 L226 86.8 L240 29.3 L252 100.2 L266 35.2 L280 92.7 L296 21.6 L307 105.4 L317 30.3 L332 82.3 L345 40.9 L359 99.4 L373 17.5 L384 97.5 L398 25.8 L411 101.5 L427 28.7 L442 79.7 L456 23.9 L473 101.0 L485 31.2 L499 78.6 L512 80.4 L518 28.1 L524 24.1 L530 74.7 L536 94.8 L542 62.2 L548 27.1 L554 44.8 L560 80.5 L566 84.9 L572 50.4 L578 34.5 L584 58.8 L590 85.0 L596 71.4 L602 43.6 L608 41.7 L614 68.3 L620 80.3 L626 60.6 L632 43.2 L638 51.1 L644 69.7 L650 71.3 L656 55.9 L662 47.9 L668 57.8 L674 69.1 L680 64.4 L686 54.3 L692 54.8 L698 62.6 L704 65.7 L710 60.7 L716 56.1 L722 57.5 L728 62.7 L734 62.5 L740 59.6 L746 58.6 L752 59.8 L758 60.7 L764 60.1 L770 59.9 L776 59.9 L782 60.6 L788 63.0 L794 65.1 L800 66.9 L806 68.2 L812 68.9 L818 68.9 L824 68.3 L830 67.1 L836 65.4 L842 63.3 L848 61.0 L854 58.6 L860 56.3 L866 54.2 L872 52.6 L878 51.5 L884 51.0 L890 51.2 L896 52.0 L902 53.4 L908 55.2 L914 57.4 L920 59.8 L926 62.2 L932 64.5 L938 66.4 L944 67.8 L950 68.7 L956 69.0 L962 68.6 L968 67.6 L974 66.1 L980 64.1 L986 61.8 L992 59.4 L998 57.0 L1004 54.9 L1010 53.1 L1016 51.8 L1022 51.1 L1028 51.1 L1034 51.7 L1040 52.9 L1046 54.6 L1052 56.7 L1058 59.0 L1064 61.4 L1070 63.7 L1076 65.8 L1082 67.4 L1088 68.5 L1094 69.0 L1100 68.8 L1106 68.0 L1112 66.6 L1118 64.8 L1124 62.6 L1130 60.2 L1136 57.8 L1142 55.5 L1148 53.6 L1154 52.2 L1160 51.3 L1166 51.0 L1172 51.4 L1178 52.4 L1184 53.9 L1190 55.9 L1196 58.2"/>
+          <path class="signal__line" id="sig-path" pathLength="1" d="M0 32.9 L10 96.2 L20 27.0 L32 79.6 L45 41.0 L57 80.0 L67 30.1 L83 81.5 L93 24.4 L110 94.2 L122 14.7 L131 102.0 L143 38.0 L153 86.6 L168 36.9 L182 95.9 L194 26.7 L203 79.7 L214 22.9 L226 86.8 L240 29.3 L252 100.2 L266 35.2 L280 92.7 L296 21.6 L307 105.4 L317 30.3 L332 82.3 L345 40.9 L359 99.4 L373 17.5 L384 97.5 L398 25.8 L411 101.5 L427 28.7 L442 79.7 L456 23.9 L473 101.0 L485 31.2 L499 78.6 L512 80.4 L518 28.1 L524 24.1 L530 74.7 L536 94.8 L542 62.2 L548 27.1 L554 44.8 L560 80.5 L566 84.9 L572 50.4 L578 34.5 L584 58.8 L590 85.0 L596 71.4 L602 43.6 L608 41.7 L614 68.3 L620 80.3 L626 60.6 L632 43.2 L638 51.1 L644 69.7 L650 71.3 L656 55.9 L662 47.9 L668 57.8 L674 69.1 L680 64.4 L686 54.3 L692 54.8 L698 62.6 L704 65.7 L710 60.7 L716 56.1 L722 57.5 L728 62.7 L734 62.5 L740 59.6 L746 58.6 L752 59.8 L758 60.7 L764 60.1 L770 59.9 L776 59.9 L782 60.6 L788 63.0 L794 65.1 L800 66.9 L806 68.2 L812 68.9 L818 68.9 L824 68.3 L830 67.1 L836 65.4 L842 63.3 L848 61.0 L854 58.6 L860 56.3 L866 54.2 L872 52.6 L878 51.5 L884 51.0 L890 51.2 L896 52.0 L902 53.4 L908 55.2 L914 57.4 L920 59.8 L926 62.2 L932 64.5 L938 66.4 L944 67.8 L950 68.7 L956 69.0 L962 68.6 L968 67.6 L974 66.1 L980 64.1 L986 61.8 L992 59.4 L998 57.0 L1004 54.9 L1010 53.1 L1016 51.8 L1022 51.1 L1028 51.1 L1034 51.7 L1040 52.9 L1046 54.6 L1052 56.7 L1058 59.0 L1064 61.4 L1070 63.7 L1076 65.8 L1082 67.4 L1088 68.5 L1094 69.0 L1100 68.8 L1106 68.0 L1112 66.6 L1118 64.8 L1124 62.6 L1130 60.2 L1136 57.8 L1142 55.5 L1148 53.6 L1154 52.2 L1160 51.3 L1166 51.0 L1172 51.4 L1178 52.4 L1184 53.9 L1190 55.9 L1196 58.2"/>
+          <circle class="signal__dot" r="5"><animateMotion dur="7s" repeatCount="indefinite" rotate="auto"><mpath href="#sig-path"/></animateMotion></circle>
+        </svg>
+        <div class="signal__labels wrap">
+          <span><span class="dot dot--hot"></span>Zaštitni obrazac</span>
+          <span>Slobodan pokret<span class="dot dot--calm"></span></span>
+        </div>
+      </div>
+
+      <!-- Činjenice: iz biografije i objava na profilu @wolfovic_pdtr -->
+      <ul class="facts wrap" aria-label="Ukratko">
+        <li><span class="facts__k">Rad</span><span class="facts__v">Personalni treninzi, <span class="nw">P-DTR</span> terapija, online saradnja</span></li>
+        <!-- PROVERITI SA KLIJENTOM: na profilu su i MegaGym i Spacegym; gde tačno prima klijente -->
+        <li><span class="facts__k">Lokacija</span><span class="facts__v">Novi Sad, MegaGym</span></li>
+        <li><span class="facts__k">Konsultacije</span><span class="facts__v">Uvek besplatne</span></li>
+      </ul>
+    </section>
+
+    <!-- Traka: stanja sa kojima radi, iz njegovih objava -->
+    <div class="ticker" role="region" aria-label="Sa čim radim">
+      <div class="ticker__track">
+        <ul class="ticker__list">
+          <li>Hronični bol</li>
+          <li>Bol u leđima</li>
+          <li>Koleno</li>
+          <li>Rame</li>
+          <li>Kuk</li>
+          <li>Skolioza</li>
+          <li>Kifoza</li>
+          <li>Ravna stopala</li>
+          <li>Udubljene grudi</li>
+          <li>Oporavak posle preloma</li>
+          <li>Mobilnost</li>
+          <li>Snaga</li>
+        </ul>
+        <ul class="ticker__list" aria-hidden="true">
+          <li>Hronični bol</li>
+          <li>Bol u leđima</li>
+          <li>Koleno</li>
+          <li>Rame</li>
+          <li>Kuk</li>
+          <li>Skolioza</li>
+          <li>Kifoza</li>
+          <li>Ravna stopala</li>
+          <li>Udubljene grudi</li>
+          <li>Oporavak posle preloma</li>
+          <li>Mobilnost</li>
+          <li>Snaga</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ============ 3. O MENI ============ -->
+    <section class="about section" id="o-meni" aria-labelledby="o-meni-naslov">
+      <div class="wrap about__grid">
+        <figure class="photo photo--about reveal">
+          <img src="img/o-meni.jpg" alt="Lazar Vulović u sivoj duksarici, na spravi u teretani" width="960" height="1200" loading="lazy"
+               onerror="this.parentNode.classList.add('is-empty');this.remove()">
+          <figcaption class="photo__label">Fotografija</figcaption>
+          <p class="photo__tag"><span class="dot dot--calm" aria-hidden="true"></span>Lazar Vulović</p>
+        </figure>
+
+        <div class="about__text">
+          <p class="eyebrow reveal">O meni</p>
+          <h2 class="h2 reveal" id="o-meni-naslov">Ja sam Lazar Vulović. Bol rešavam <span class="wave">snagom.</span></h2>
+
+          <!-- PROVERITI SA KLIJENTOM: tekst je sastavljen iz njegove biografije i opisa objava, ali nije njegovim rečima -->
+          <div class="prose reveal">
+            <p>Master sam sporta i kineziterapije, <span class="nw">P-DTR</span> terapeut i personalni trener u Novom Sadu. Najviše radim sa ljudima koji dolaze sa bolom u leđima, kolenu, ramenu ili kuku, često dugo posle povrede koja je odavno zarasla.</p>
+            <p>Kad bol traje mesecima bez jasnog razloga, problem je često u nervnom sistemu koji je ostao u režimu zaštite. <span class="nw">P-DTR</span> terapijom tražimo taj signal i ispravljamo ga. Nikakva magija, čista biomehanika i neurološki odgovor na pokret.</p>
+            <p>Kad bol ode, posao tek počinje. U većini slučajeva trajno rešenje je više snage, zato treniramo pokret, a ne mišiće. Tako radimo i sa skoliozom, kifozom, ravnim stopalima i oporavkom posle preloma.</p>
+          </div>
+
+          <div class="creds reveal">
+            <h3 class="creds__title">Obrazovanje i iskustvo</h3>
+            <ul class="creds__list">
+              <li>MSc sporta i kineziterapije</li>
+              <li><span class="nw">P-DTR</span> terapeut <span class="ph">[nivo sertifikata, godina]</span></li>
+              <li>Fizio u stručnom štabu Rvačkog saveza Srbije</li>
+              <li>BJJ: zlato na prvom takmičenju, bez izgubljenog boda</li>
+              <li><span class="ph">[Godine iskustva u radu sa klijentima]</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 4. NAČIN RADA ============ -->
+    <!-- PROVERITI SA KLIJENTOM: redosled je izveden iz njegovih objava (testiranje, P-DTR, snaga, "Treniraj pokret, a ne mišiće!") -->
+    <section class="method section" id="metod" aria-labelledby="metod-naslov">
+      <div class="wrap">
+        <div class="method__head">
+          <div>
+            <p class="eyebrow reveal">Način rada</p>
+            <h2 class="h2 reveal" id="metod-naslov">Od bola do <span class="wave">snage.</span></h2>
+          </div>
+          <p class="method__intro reveal">Isti redosled važi bilo da dolaziš zbog bola, loše posture ili zato što želiš da budeš jači.</p>
+        </div>
+
+        <ol class="principles">
+          <li class="principle reveal" style="--i:0">
+            <svg class="principle__wave principle__wave--hot" viewBox="0 0 120 32" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path pathLength="1" d="M0 6.3 L7 29.2 L14 3.2 L21 26.3 L28 4.5 L35 27.2 L42 3.7 L49 28.9 L56 6.5 L63 25.1 L70 2.8 L77 27.2 L84 3.2 L91 25.0 L98 4.8 L105 28.6 L112 5.9 L119 29.7"/></svg>
+            <span class="principle__n" aria-hidden="true">Korak 1</span>
+            <h3>Prvo uzrok, pa rešenje</h3>
+            <p>Mesto koje boli retko je mesto gde je problem. Bol u leđima može da dolazi iz kuka, nestabilno rame iz lopatice. Zato prvo testiramo pokret.</p>
+          </li>
+          <li class="principle reveal" style="--i:1">
+            <svg class="principle__wave principle__wave--hot" viewBox="0 0 120 32" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path pathLength="1" d="M0 6.3 L8 25.6 L16 12.6 L24 19.6 L32 7.2 L40 24.2 L48 8.3 L56 21.2 L64 8.8 L72 23.2 L80 8.9 L88 20.1 L96 10.0 L104 21.8 L112 7.9 L120 26.0"/></svg>
+            <span class="principle__n" aria-hidden="true">Korak 2</span>
+            <h3><span class="nw">P-DTR</span> gasi alarm</h3>
+            <p>Terapijom ispravljamo signal zbog kog telo drži pokret u zaštiti. Razlika se često vidi već posle jednog tretmana.</p>
+          </li>
+          <li class="principle reveal" style="--i:2">
+            <svg class="principle__wave" viewBox="0 0 120 32" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path pathLength="1" d="M0 16.0 L3 18.3 L6 20.3 L9 21.9 L12 22.8 L15 23.0 L18 22.4 L21 21.1 L24 19.2 L27 17.0 L30 14.7 L33 12.5 L36 10.7 L39 9.5 L42 9.0 L45 9.3 L48 10.3 L51 12.0 L54 14.0 L57 16.4 L60 18.6 L63 20.6 L66 22.1 L69 22.9 L72 22.9 L75 22.2 L78 20.8 L81 18.9 L84 16.6 L87 14.3 L90 12.2 L93 10.5 L96 9.4 L99 9.0 L102 9.4 L105 10.5 L108 12.2 L111 14.4 L114 16.7 L117 18.9 L120 20.9"/></svg>
+            <span class="principle__n" aria-hidden="true">Korak 3</span>
+            <h3>Snaga drži rezultat</h3>
+            <p>Nema tog problema što snaga ne može da reši. Trening učvršćuje ono što je terapija otvorila, da se bol ne vrati.</p>
+          </li>
+          <li class="principle reveal" style="--i:3">
+            <svg class="principle__wave" viewBox="0 0 120 32" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path pathLength="1" d="M0 16.0 L3 16.9 L6 17.7 L9 18.4 L12 19.0 L15 19.5 L18 19.8 L21 20.0 L24 20.0 L27 19.7 L30 19.4 L33 18.8 L36 18.2 L39 17.4 L42 16.6 L45 15.7 L48 14.9 L51 14.1 L54 13.4 L57 12.8 L60 12.4 L63 12.1 L66 12.0 L69 12.1 L72 12.4 L75 12.8 L78 13.4 L81 14.1 L84 14.9 L87 15.7 L90 16.6 L93 17.4 L96 18.2 L99 18.8 L102 19.4 L105 19.8 L108 20.0 L111 20.0 L114 19.8 L117 19.5 L120 19.0"/></svg>
+            <span class="principle__n" aria-hidden="true">Korak 4</span>
+            <h3>Treniraj pokret, a ne mišiće</h3>
+            <p>Mobilnost, disanje i kontrola pokreta pre kilaže. Nema bolje ili lošije vežbe, ali nije svaka za svakoga.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ 5. PAKETI ============ -->
+    <!-- PROVERITI SA KLIJENTOM: tri usluge su iz biografije (P-DTR terapeut, personalni treninzi, online saradnja); stavke u listama i cene potvrditi -->
+    <section class="plans section" id="paketi" aria-labelledby="paketi-naslov">
+      <div class="wrap">
+        <div class="plans__head">
+          <p class="eyebrow reveal">Paketi</p>
+          <h2 class="h2 reveal" id="paketi-naslov">Izaberi kako <span class="wave">krećemo.</span></h2>
+        </div>
+
+        <div class="plans__grid">
+          <article class="plan reveal">
+            <h3 class="plan__name">Personalni treninzi</h3>
+            <p class="plan__for"><strong>Za koga:</strong> za one koji žele da budu jači, da poprave držanje ili da se posle povrede vrate punom treningu.</p>
+            <ul class="plan__list">
+              <li>Treninzi jedan na jedan u Novom Sadu</li>
+              <li>Testiranje pokreta i mobilnosti na početku</li>
+              <li>Korekcija tehnike u svakoj seriji</li>
+              <li>Plan koji prati tvoj napredak</li>
+            </ul>
+            <p class="plan__price">Cena na upit</p>
+            <a class="btn btn--ghost" href="#kontakt">Pitaj za termin</a>
+          </article>
+
+          <article class="plan plan--top reveal">
+            <p class="plan__badge">Specijalnost</p>
+            <h3 class="plan__name"><span class="nw">P-DTR</span> terapija</h3>
+            <p class="plan__for"><strong>Za koga:</strong> za hronični bol, ograničen pokret i povrede posle kojih telo nije isto.</p>
+            <ul class="plan__list">
+              <li>Testiranje i traženje uzroka bola</li>
+              <li><span class="nw">P-DTR</span> tretman</li>
+              <li>Vežbe koje učvršćuju rezultat</li>
+              <li>Preporuka za dalji trening</li>
+            </ul>
+            <p class="plan__price">Cena na upit</p>
+            <a class="btn btn--hot" href="#kontakt">Zakaži tretman</a>
+          </article>
+
+          <article class="plan reveal">
+            <h3 class="plan__name">Online saradnja</h3>
+            <p class="plan__for"><strong>Za koga:</strong> za one koji treniraju sami ili nisu iz Novog Sada, a žele plan i kontrolu.</p>
+            <ul class="plan__list">
+              <li>Individualan plan treninga</li>
+              <li>Provera tehnike preko snimaka</li>
+              <li>Redovan check-in i prilagođavanje plana</li>
+              <li>Podrška putem poruka</li>
+            </ul>
+            <p class="plan__price">Cena na upit</p>
+            <a class="btn btn--ghost" href="#kontakt">Kreni online</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 6. KORACI SARADNJE ============ -->
+    <section class="steps section" id="saradnja" aria-labelledby="saradnja-naslov">
+      <div class="wrap">
+        <div class="steps__head">
+          <div>
+            <p class="eyebrow eyebrow--dark reveal">Koraci saradnje</p>
+            <h2 class="h2 reveal" id="saradnja-naslov">Od prve poruke do prvog treninga.</h2>
+          </div>
+          <svg class="tally" viewBox="0 0 120 100" aria-hidden="true" focusable="false">
+            <path class="tally__s" style="--i:0" d="M18 12v76"/>
+            <path class="tally__s" style="--i:1" d="M42 12v76"/>
+            <path class="tally__s" style="--i:2" d="M66 12v76"/>
+            <path class="tally__s" style="--i:3" d="M90 12v76"/>
+            <path class="tally__s tally__s--x" style="--i:4" d="M4 80 112 22"/>
+          </svg>
+        </div>
+
+        <ol class="timeline">
+          <li class="step reveal" style="--i:0">
+            <span class="step__n">1</span>
+            <h3>Javiš se</h3>
+            <p>Pošalji DM na Instagramu ili poruku na telefon.</p>
+          </li>
+          <li class="step reveal" style="--i:1">
+            <span class="step__n">2</span>
+            <h3>Besplatne konsultacije</h3>
+            <p>Pričamo o bolu, povredama, ciljevima i tvom rasporedu.</p>
+          </li>
+          <li class="step reveal" style="--i:2">
+            <span class="step__n">3</span>
+            <h3>Procena i dogovor</h3>
+            <p>Testiramo pokret, tražimo uzrok i biramo paket koji ti odgovara.</p>
+          </li>
+          <li class="step reveal" style="--i:3">
+            <span class="step__n">4</span>
+            <h3>Tvoj plan</h3>
+            <p>Dobijaš plan terapije i treninga, prilagođen nalazu i rasporedu.</p>
+          </li>
+          <li class="step reveal" style="--i:4">
+            <span class="step__n">5</span>
+            <h3>Treniramo</h3>
+            <p>Pratimo napredak i prilagođavamo plan dok ne stigneš do cilja.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ 7. REZULTATI ============ -->
+    <!-- Pre/posle slotovi i citat su preuzeti sa njegovog profila (objave sa utiscima klijenata). PROVERITI SA KLIJENTOM: saglasnost klijenata za sajt -->
+    <section class="results section" id="rezultati" aria-labelledby="rezultati-naslov">
+      <div class="wrap">
+        <div class="results__head">
+          <p class="eyebrow reveal">Rezultati klijenata</p>
+          <h2 class="h2 reveal" id="rezultati-naslov">Rezultati govore <em class="mark">umesto mene.</em></h2>
+          <p class="results__note reveal">Primeri iz prakse i utisak klijenta, sa mog Instagram profila.</p>
+        </div>
+
+        <div class="results__grid">
+          <!-- Izvor: instagram.com/p/DcvzqMuN6Mb (objava sa njegovog profila). PROVERITI SA KLIJENTOM: saglasnost klijentkinje za sajt -->
+          <figure class="slot slot--ba slot--filled reveal">
+            <div class="ba" style="--pos:50%">
+              <img class="ba__img" src="img/rezultat-1-pre.jpg" alt="Klijentkinja iz profila pre: glava isturena napred, krilaste lopatice" width="600" height="1000" loading="lazy">
+              <div class="ba__after"><img class="ba__img" src="img/rezultat-1-posle.jpg" alt="Ista klijentkinja posle godinu dana rada: uspravnije držanje glave i ramena" width="600" height="1000" loading="lazy"></div>
+              <span class="ba__lbl ba__lbl--pre" aria-hidden="true">Pre</span>
+              <span class="ba__lbl ba__lbl--post" aria-hidden="true">Posle</span>
+              <span class="ba__handle" aria-hidden="true"><span></span></span>
+              <input class="ba__range" type="range" min="0" max="100" value="50" aria-label="Razdelnik između fotografija pre i posle">
+            </div>
+            <figcaption class="slot__cap">
+              <span class="slot__tag">Rame posle dve povrede</span>
+              <span class="slot__txt">Olja, posturalna transformacija za godinu dana. Cilj je bio da izbegne operaciju ramena.</span>
+              <a class="slot__src" href="https://www.instagram.com/wolfovic_pdtr/p/DcvzqMuN6Mb/" target="_blank" rel="noopener">Cela priča na Instagramu</a>
+            </figcaption>
+          </figure>
+
+          <!-- Izvor: instagram.com/p/Db3HiUpt_Qj (objava sa njegovog profila). PROVERITI SA KLIJENTOM: saglasnost klijentkinje za sajt -->
+          <figure class="slot slot--ba slot--filled reveal">
+            <div class="ba" style="--pos:50%">
+              <img class="ba__img" src="img/rezultat-2-pre.jpg" alt="Klijentkinja pre tretmana: izražena krivina donjeg dela leđa" width="600" height="1000" loading="lazy">
+              <div class="ba__after"><img class="ba__img" src="img/rezultat-2-posle.jpg" alt="Ista klijentkinja sat vremena kasnije, posle jednog tretmana: neutralnije držanje" width="600" height="1000" loading="lazy"></div>
+              <span class="ba__lbl ba__lbl--pre" aria-hidden="true">Pre</span>
+              <span class="ba__lbl ba__lbl--post" aria-hidden="true">Posle</span>
+              <span class="ba__handle" aria-hidden="true"><span></span></span>
+              <input class="ba__range" type="range" min="0" max="100" value="50" aria-label="Razdelnik između fotografija pre i posle">
+            </div>
+            <figcaption class="slot__cap">
+              <span class="slot__tag">Bol u leđima</span>
+              <span class="slot__txt">Razmak između fotografija je sat vremena. Kad je bol nestao posle jednog tretmana, telo je samo našlo svoju posturu.</span>
+              <a class="slot__src" href="https://www.instagram.com/wolfovic_pdtr/p/Db3HiUpt_Qj/" target="_blank" rel="noopener">Cela priča na Instagramu</a>
+            </figcaption>
+          </figure>
+
+          <figure class="slot slot--quote slot--filled reveal">
+            <svg class="slot__q" viewBox="0 0 48 36" aria-hidden="true" focusable="false"><path d="M0 36V20C0 8 6 1 18 0v8c-6 1-9 5-9 12h9v16H0Zm30 0V20C30 8 36 1 48 0v8c-6 1-9 5-9 12h9v16H30Z"/></svg>
+            <blockquote class="slot__quote">
+              <p>Treniram u teretani skoro pola života i stvarno smatram imam dovoljno iskustva, ali primetio sam neke nedostatke kod sebe i obratio se Lazaru. Ispostavilo se da imam skoliozu koja mi užasno smeta i smanjenu mobilnost nekih segmenata tela. Nakon 2 meseca se osećam puno bolje pri dizanju velikih kilaža.</p>
+            </blockquote>
+            <figcaption class="slot__cap">
+              <span class="slot__tag">Utisak klijenta</span>
+              <span class="slot__txt">Miloš, 30 godina, Novi Sad</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 8. ČESTA PITANJA ============ -->
+    <section class="faq section" id="pitanja" aria-labelledby="pitanja-naslov">
+      <div class="wrap faq__grid">
+        <div class="faq__head">
+          <p class="eyebrow reveal">Česta pitanja</p>
+          <h2 class="h2 reveal" id="pitanja-naslov">Pre nego što <em class="mark">pitaš.</em></h2>
+          <p class="faq__more reveal">Nema tvog pitanja? <a href="https://www.instagram.com/wolfovic_pdtr/" target="_blank" rel="noopener">Pošalji DM</a>.</p>
+        </div>
+
+        <div class="acc">
+          <div class="acc__item">
+            <h3><button class="acc__btn" type="button" aria-expanded="false" aria-controls="odg-1" id="pit-1"><span>Šta je <span class="nw">P-DTR</span> terapija?</span><span class="acc__icon" aria-hidden="true"></span></button></h3>
+            <div class="acc__panel" id="odg-1" role="region" aria-labelledby="pit-1"><div><p>Neurološki pristup bolu i ograničenom pokretu. Testiranjem tražimo receptore koji šalju pogrešan signal, zbog kog nervni sistem drži deo tela u zaštiti. Kad se signal ispravi, pokret i bol se često menjaju već u istom terminu.</p></div></div>
+          </div>
+          <div class="acc__item">
+            <h3><button class="acc__btn" type="button" aria-expanded="false" aria-controls="odg-2" id="pit-2">Koliko tretmana mi treba?<span class="acc__icon" aria-hidden="true"></span></button></h3>
+            <div class="acc__panel" id="odg-2" role="region" aria-labelledby="pit-2"><div><p>Zavisi od problema i od toga koliko dugo traje. Kod nekih je razlika vidljiva posle jednog tretmana, kod hroničnih stanja treba više termina i trening koji učvrsti rezultat. Procenu dobijaš na besplatnim konsultacijama.</p></div></div>
+          </div>
+          <div class="acc__item">
+            <h3><button class="acc__btn" type="button" aria-expanded="false" aria-controls="odg-3" id="pit-3">Mogu li da treniram ako me nešto boli?<span class="acc__icon" aria-hidden="true"></span></button></h3>
+            <div class="acc__panel" id="odg-3" role="region" aria-labelledby="pit-3"><div><p>Bol nije razlog da staneš, nego da treniraš pametnije. Prvo nađemo uzrok, pa biramo vežbe koje ne bole. Ako osećaš jak bol, javi se pre nego što kreneš sam.</p></div></div>
+          </div>
+          <div class="acc__item">
+            <h3><button class="acc__btn" type="button" aria-expanded="false" aria-controls="odg-4" id="pit-4">Kako izgleda online saradnja?<span class="acc__icon" aria-hidden="true"></span></button></h3>
+            <div class="acc__panel" id="odg-4" role="region" aria-labelledby="pit-4"><div><p>Dobijaš plan treninga, šalješ snimke vežbi za proveru tehnike i javljaš kako je prošlo. Na osnovu toga plan se prilagođava, a za pitanja između provera tu su poruke.</p></div></div>
+          </div>
+          <div class="acc__item">
+            <h3><button class="acc__btn" type="button" aria-expanded="false" aria-controls="odg-5" id="pit-5">Kako se plaća?<span class="acc__icon" aria-hidden="true"></span></button></h3>
+            <div class="acc__panel" id="odg-5" role="region" aria-labelledby="pit-5"><div><p><span class="ph">[Način plaćanja: gotovina, uplata na račun, mesečno ili po paketu]</span>. Sve detalje dogovaramo na konsultacijama, pre početka saradnje.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 9. KONTAKT ============ -->
+    <section class="contact" id="kontakt" aria-labelledby="kontakt-naslov">
+      <div class="wrap contact__grid">
+        <div class="contact__head">
+          <p class="eyebrow reveal"><span class="dot dot--live" aria-hidden="true"></span>Kontakt</p>
+          <h2 class="contact__title reveal" id="kontakt-naslov">Spreman da <span class="wave wave--hot">kreneš?</span></h2>
+          <p class="contact__lead reveal">Pošalji poruku i dogovaramo konsultacije. Uvek su besplatne.</p>
+        </div>
+
+        <ul class="channels reveal">
+          <li>
+            <a class="channel" href="https://www.instagram.com/wolfovic_pdtr/" target="_blank" rel="noopener">
+              <span class="channel__k">Instagram</span>
+              <span class="channel__v">@wolfovic_pdtr</span>
+              <svg class="channel__arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 19 19 5M8 5h11v11"/></svg>
+            </a>
+          </li>
+          <li>
+            <!-- PLACEHOLDER: upisati pravi broj u formatu 381XXXXXXXXX (bez + i nule) -->
+            <a class="channel" href="https://wa.me/381XXXXXXXXX" target="_blank" rel="noopener">
+              <span class="channel__k">WhatsApp</span>
+              <span class="channel__v"><span class="ph">[+381 broj]</span></span>
+              <svg class="channel__arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 19 19 5M8 5h11v11"/></svg>
+            </a>
+          </li>
+          <li>
+            <!-- PLACEHOLDER: viber://chat?number=%2B381XXXXXXXXX -->
+            <a class="channel" href="viber://chat?number=%2B381XXXXXXXXX">
+              <span class="channel__k">Viber</span>
+              <span class="channel__v"><span class="ph">[+381 broj]</span></span>
+              <svg class="channel__arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 19 19 5M8 5h11v11"/></svg>
+            </a>
+          </li>
+          <li>
+            <!-- PLACEHOLDER: tel:+381XXXXXXXXX -->
+            <a class="channel" href="tel:+381XXXXXXXXX">
+              <span class="channel__k">Poziv</span>
+              <span class="channel__v"><span class="ph">[+381 broj]</span></span>
+              <svg class="channel__arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 19 19 5M8 5h11v11"/></svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="signal signal--calm" aria-hidden="true">
+        <svg class="signal__svg" viewBox="0 0 1200 120" preserveAspectRatio="none" focusable="false">
+          <path class="signal__calm" d="M0 60.0 L8 64.9 L16 68.9 L24 71.4 L32 71.9 L40 70.4 L48 67.1 L56 62.5 L64 57.5 L72 52.9 L80 49.6 L88 48.1 L96 48.6 L104 51.1 L112 55.1 L120 60.0 L128 64.9 L136 68.9 L144 71.4 L152 71.9 L160 70.4 L168 67.1 L176 62.5 L184 57.5 L192 52.9 L200 49.6 L208 48.1 L216 48.6 L224 51.1 L232 55.1 L240 60.0 L248 64.9 L256 68.9 L264 71.4 L272 71.9 L280 70.4 L288 67.1 L296 62.5 L304 57.5 L312 52.9 L320 49.6 L328 48.1 L336 48.6 L344 51.1 L352 55.1 L360 60.0 L368 64.9 L376 68.9 L384 71.4 L392 71.9 L400 70.4 L408 67.1 L416 62.5 L424 57.5 L432 52.9 L440 49.6 L448 48.1 L456 48.6 L464 51.1 L472 55.1 L480 60.0 L488 64.9 L496 68.9 L504 71.4 L512 71.9 L520 70.4 L528 67.1 L536 62.5 L544 57.5 L552 52.9 L560 49.6 L568 48.1 L576 48.6 L584 51.1 L592 55.1 L600 60.0 L608 64.9 L616 68.9 L624 71.4 L632 71.9 L640 70.4 L648 67.1 L656 62.5 L664 57.5 L672 52.9 L680 49.6 L688 48.1 L696 48.6 L704 51.1 L712 55.1 L720 60.0 L728 64.9 L736 68.9 L744 71.4 L752 71.9 L760 70.4 L768 67.1 L776 62.5 L784 57.5 L792 52.9 L800 49.6 L808 48.1 L816 48.6 L824 51.1 L832 55.1 L840 60.0 L848 64.9 L856 68.9 L864 71.4 L872 71.9 L880 70.4 L888 67.1 L896 62.5 L904 57.5 L912 52.9 L920 49.6 L928 48.1 L936 48.6 L944 51.1 L952 55.1 L960 60.0 L968 64.9 L976 68.9 L984 71.4 L992 71.9 L1000 70.4 L1008 67.1 L1016 62.5 L1024 57.5 L1032 52.9 L1040 49.6 L1048 48.1 L1056 48.6 L1064 51.1 L1072 55.1 L1080 60.0 L1088 64.9 L1096 68.9 L1104 71.4 L1112 71.9 L1120 70.4 L1128 67.1 L1136 62.5 L1144 57.5 L1152 52.9 L1160 49.6 L1168 48.1 L1176 48.6 L1184 51.1 L1192 55.1 L1200 60.0 L1208 64.9 L1216 68.9 L1224 71.4 L1232 71.9 L1240 70.4 L1248 67.1 L1256 62.5 L1264 57.5 L1272 52.9 L1280 49.6 L1288 48.1 L1296 48.6 L1304 51.1 L1312 55.1 L1320 60.0"/>
+        </svg>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ 10. FOOTER ============ -->
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <p class="footer__name"><span class="footer__logo">Wolfović</span> Lazar Vulović, personalni trener i <span class="nw">P-DTR</span> terapeut</p>
+      <p><a href="https://www.instagram.com/wolfovic_pdtr/" target="_blank" rel="noopener">Instagram @wolfovic_pdtr</a></p>
+      <p>© <span id="godina">2026</span></p>
+      <p class="footer__demo">Demo verzija sajta</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
